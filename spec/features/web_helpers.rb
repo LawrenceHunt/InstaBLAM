@@ -30,7 +30,8 @@ end
 def add_post
   visit('posts/new')
   fill_in('Description', with: 'test description')
-  page.attach_file('post_image', Rails.root + 'public/image.jpg')
+  fill_in 'Tags', with: 'yolo, swag'
+  page.attach_file('post_image', Rails.root + 'spec/images/image.jpg')
   click_button 'Create Post'
 end
 

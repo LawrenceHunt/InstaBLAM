@@ -19,7 +19,9 @@ before_action :authenticate_user!, :except => [:index, :show]
   end
 
   def create
-    @post = Post.new(post_params)
+    @user = current_user
+    @post = @user.posts.new(post_params)
+    # @post.tag_names += params[:]
     if @post.save
       flash[:success] = "Success! Your image was uploaded successfully."
       redirect_to post_path(@post)
@@ -47,8 +49,14 @@ before_action :authenticate_user!, :except => [:index, :show]
     redirect_to '/posts'
   end
 
+  def hashtags
+    @tag = Tag.find_by(name: ('#' + params[:name]))
+    @posts = @tag.posts
+  end
+
+
   private
   def post_params
-    params.require(:post).permit(:description, :image)
+    params.require(:post).permit(:description, :image, :tag_names)
   end
 end
