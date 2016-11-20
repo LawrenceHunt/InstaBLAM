@@ -1,0 +1,56 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.pagehead {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 100px;
+  height: 100px;
+  padding-bottom: 150px;
+  padding-top: -75px;
+  left: 40%;
+  text-align: center;
+}
+
+.post {
+  display: inline-block;
+  margin: 10px 20px 10px 10px;
+  border-width: 3px;
+  border-color: black;
+  border-style: groove;
+  // background-color: salmon;
+  padding: 20px 20px 20px 20px;
+}
+
+#container {
+  text-align: center;
+}
+
+#postimage {
+margin:0;
+padding: 0;
+width: 300px;
+height:300px;
+left: 10px;
+top: 10px;
+border: 10px solid black;
+box-shadow: gray 5px 5px 12px;
+overflow: hidden;
+border-top-left-radius: 50px;
+-moz-border-radius-top-left: 50px ;
+-webkit-border-radius-top-left: 50px;
+}
+
+#description {
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  width: 300px;
+  height: 50px;
+  overflow: scroll;
+}
+
+//
+// font-family: 'Anton', sans-serif;
+// font-family: 'Bungee Inline', cursive;
+// font-family: 'Alfa Slab One', cursive;
+// font-family: 'Slabo 27px', serif;
