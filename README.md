@@ -12,7 +12,7 @@ Features
 - Likes
 - Comments
 
-![InstaBLAM screenshot](http://imgur.com/DHyJTmZ)
+[InstaBLAM screenshot](http://i.imgur.com/DHyJTmZ.png))
 
 Instructions for running from local server
 ------------------------------------------
