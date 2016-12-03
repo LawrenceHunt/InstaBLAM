@@ -1,23 +1,56 @@
-Instagram Challenge
-===================
+####INSTABLAM
 
-Instructions
--------
-* Challenge time: one weekend
-* Feel free to use Google, your notes, books, etc., but work on your own
-* If you refer to the solution of another coach or student, please put a link to that in your README
-* If you have a partial solution, **still check in a partial solution**
-* You must submit a pull request to this repo with your code by 9am Monday morning
 
-Task
------
 
-Build Instagram: Simple huh!
 
-Bonus if you can write your own set of sensible user stories!
+Instagram clone with a clean, comic-book themed styling - for sharing your favourite stills and GIFs from the world of comics and digital art.
+Built in Rails.
 
-As usual please start by forking this repo. After cloning your fork and cd'ing into it, you'll need to [initialize a Rails app in the current directory](http://blog.jasonmeridth.com/posts/create-rails-application-in-current-directory/).
+Features
+- Hashtags
+- Filters
+- Likes
+- Comments
 
-Your challenge is to build Instagram using Rails. You'll need **users** who can post **pictures**, write **comments** on pictures and **like** a picture. Style it like Instagram's website (or more awesome).
+![InstaBLAM screenshot](http://imgur.com/DHyJTmZ)
 
-Bonus if you can add filters!
+Instructions for running from local server
+------------------------------------------
+* Clone this repo
+* bin/rake db:create
+* bin/rails s
+
+User stories
+------------
+
+As a comic fan
+So I can share my fave images
+I'd like to be able to add a picture to the feed
+
+As a comic fan
+So I can share some info on the image
+I'd like to be able to add a description
+
+As a comic fan
+In case I make a mistake
+I'd like to be able to edit an image
+
+As a comic fan
+In case I decide I don't want an image on the feed
+I can delete my own images
+
+As a comic fan
+So I can keep track of my own images
+I'd like to be able to sign up and sign in
+
+As a comic fan
+So I can get in quickly
+I'd like to be able to sign in using Facebook
+
+As a comic fan
+So I can organise similar images
+I'd like to be able to add and browse Hashtags
+
+As a comic fan
+So I can interact with images and see what I've liked
+I'd like to be able to Like images

@@ -1,3 +1,4 @@
+require 'rails_helper'
 
 feature 'Hashtags' do
   it 'can add tags to a post' do

@@ -16,8 +16,12 @@
      <div id="timeuser"><p>Posted <%= post.created_at.strftime("%D") %> by <%= post.user.email %></p></div>
 
       <!-- Edit and Delete -->
-      <div id="edit"><%= link_to "Edit", edit_post_path(post) %></div>
-      <div id="delete"><%= link_to "Delete", post_path(post), method: :delete %></div>
+      <% if current_user && post.user == current_user %>
+      <div class="editdelete">
+        <button id="edit"><%= link_to "Edit", edit_post_path(post) %></button>
+        <button id="delete"><%= link_to "Delete", post_path(post), method: :delete %></button>
+      </div>
+      <% end %>
     </div>
     <% end %>
   </ul>
