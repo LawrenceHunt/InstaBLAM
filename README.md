@@ -1,26 +1,24 @@
-####INSTABLAM
+##INSTABLAM
 
-
-
-
-Instagram clone with a clean, comic-book themed styling - for sharing your favourite stills and GIFs from the world of comics and digital art.
+Instagram clone with a clean, comic-book themed styling.
+For sharing your favourite stills and GIFs from the world of comics and digital art.
 Built in Rails.
 
-Features
+####FEATURES
 - Hashtags
 - Filters
 - Likes
 - Comments
 
-![InstaBLAM screenshot](http://i.imgur.com/DHyJTmZ.png))
+![InstaBLAM screenshot](http://i.imgur.com/DHyJTmZ.png)
 
-Instructions for running from local server
+####INSTRUCTIONS FOR INSTALL
 ------------------------------------------
 * Clone this repo
 * bin/rake db:create
 * bin/rails s
 
-User stories
+####USER STORIES
 ------------
 
 As a comic fan
@@ -54,3 +52,7 @@ I'd like to be able to add and browse Hashtags
 As a comic fan
 So I can interact with images and see what I've liked
 I'd like to be able to Like images
+
+As a comic fan
+So I can manipulate my images
+I'd like to be able to add a filter when I upload
