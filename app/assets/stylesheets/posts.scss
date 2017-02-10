@@ -93,6 +93,70 @@ color: red;
   border: 3px red solid;
 }
 
+.like {
+  font-size: 30px;
+}
+
+.likes_count {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 30px;
+}
+
+#postform {
+  top: 50px;
+  text-align: center;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 50%;
+  box-shadow: gray 5px 5px 12px;
+}
+
+label {
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50px;
+  left: 50px;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 30px;
+}
+
+textarea#post_description {
+  width: 75%;
+  height: 100px;
+  outline: none;
+  resize: none;
+}
+
+#tags {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 30px;
+}
+
+input#post_tag_names {
+  width: 75%;
+  height: 50px;
+  outline: none;
+  resize: none;
+}
+
+#post_image {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+input[type="submit"] {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 2em;
+  height: 60px;
+  width: 200px;
+  margin-top: 40px;
+  margin-bottom: 75px;
+}
+
+
 //
 // font-family: 'Anton', sans-serif;
 // font-family: 'Bungee Inline', cursive;
